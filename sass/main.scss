@@ -1,4 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@charset 'UTF-8';
+
+// 1. Global
+@import
+  'global/global',
+  'global/variables',
+  'global/reset';
+
+
+  // 1. Bairro
+@import
+'bairro/botao';
