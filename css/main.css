@@ -2,11 +2,24 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 90%;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+html, body, div, span, applet, object, iframe, h1, h2, h3, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
 i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
@@ -44,3 +57,31 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.button {
+  color: #5a5a5a;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif; }
+
+.button-verde {
+  color: white;
+  background-color: #2fab48; }
+
+.button-branco {
+  color: #8b8b8b;
+  background-color: white; }
+
+h1, h2, h3 {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  font-size: 18px;
+  font-weight: 500; }
+
+h3 {
+  font-size: 16px;
+  font-weight: 300; }
