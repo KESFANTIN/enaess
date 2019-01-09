@@ -1,15 +1,31 @@
 .button {
     color: $cinza-escuro;
-    padding: 10px 20px;
+    padding: 9px 19px;
     font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid $cinza;
+
+    &:hover {
+        background-color: $cinza;
+        color: $branco;
+    }
 }
 
 .button-verde {
     color: $branco;
     background-color: $verde;
+    border: 0;
+
+    &:hover {
+        background-color: $branco;
+        color: $verde;
+    }
 }
 
 .button-branco {
     color: $cinza;
     background-color: $branco;
+    padding: 9px 19px;
 }

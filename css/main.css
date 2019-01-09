@@ -13,16 +13,28 @@ a {
 
 .button {
   color: #5a5a5a;
-  padding: 10px 20px;
-  font-family: 'Roboto', sans-serif; }
+  padding: 9px 19px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid #8b8b8b; }
+  .button:hover {
+    background-color: #8b8b8b;
+    color: white; }
 
 .button-verde {
   color: white;
-  background-color: #2fab48; }
+  background-color: #2fab48;
+  border: 0; }
+  .button-verde:hover {
+    background-color: white;
+    color: #2fab48; }
 
 .button-branco {
   color: #8b8b8b;
-  background-color: white; }
+  background-color: white;
+  padding: 9px 19px; }
 
 h1, h2, h3 {
   color: #5a5a5a;
