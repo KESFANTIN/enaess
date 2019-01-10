@@ -5,8 +5,12 @@
   'global/global',
   'global/variables';
 
-
-  // 1. Bairro
+// 2. Bairro
 @import
 'bairro/botao',
-'bairro/titulos';
+'bairro/titulos',
+'bairro/logo';
+
+// 3. Cidade
+@import
+'cidade/content-banner';
