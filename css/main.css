@@ -70,3 +70,6 @@ h3 {
 .content-banner p {
   color: #5a5a5a;
   font-size: .9rem; }
+
+header {
+  width: 100%; }
